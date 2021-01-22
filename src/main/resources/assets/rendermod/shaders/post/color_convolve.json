@@ -1,0 +1,17 @@
+{
+    "targets": [
+        "swap"
+    ],
+    "passes": [
+        {
+            "name": "shogai:achromatopsia",
+            "intarget": "minecraft:main",
+            "outtarget": "swap"
+        },
+        {
+            "name": "shogai:achromatopsia",
+            "intarget": "swap",
+            "outtarget": "minecraft:main"
+        }
+    ]
+}
